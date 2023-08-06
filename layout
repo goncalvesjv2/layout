@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        ul { list-style: none; padding-left: 5px; }
+        a { color:blue; text-decoration: none;}
+        .bar {
+            background-color: white;
+            padding:15px;
+            border-top: solid 1px white;
+            border-bottom: solid 1px white;
+        }
+        .content {
+            max-width: 1440px;
+            margin: auto;
+            grid-gap: 3rem;
+            display: grid;
+            gap: 3rem;
+            grid-template-areas: "sidebar main anchors";
+            grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .footer {
+            min-height: 100px;
+            border-top: solid 1px white;
+        }
+        .anchors {
+            border-left: solid 1px white;
+            padding-left: 15px;
+        }
+        .sidebar {
+            border-right: solid 1px white;
+        }
+        figure {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="bar"></div>
+
+    <div class="content">
+        <div class="sidebar">
+            <h2>Jogo FPS</h2>
+            <ul>
+                <li><a href="#">Valorant</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <h1>Sobre o jogo</h1>
+            <p>Valorant é um jogo eletrônico multijogador gratuito para jogar de tiro em primeira pessoa desenvolvido e publicado pela Riot Games. É o primeiro jogo do gênero desenvolvido pela empresa,sendo anunciado pela primeira vez com o codinome Project A em outubro de 2019, em um evento de comemoração de 10 anos de League of Legends.Foi lançado em 2 de junho de 2020 para Microsoft Windows.</p>
+            <h2>Desenvolvimento</h2>
+            <p>Valorant foi desenvolvido com dois focos principais: fazer os jogos de tiro tático e os esportes eletrônicos mais acessíveis aos novos jogadores e criar um jogo que atrairia uma grande cena competitiva, enquanto resolveria muitos dos pontos de crítica expressos por jogadores profissionais de jogos do gênero</p>
+
+            <figure>
+                <img src="c:\Users\T-Gamer\Downloads\vava.jpg" alt="Valorant">
+            </figure>
+
+        </div>
+
+        <div class="anchors">
+            <h2>Neste artigo</h2>
+            <ul>
+                <li><a href="#">Âncoras</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+</body>
+</html>
